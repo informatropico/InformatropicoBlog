@@ -1,0 +1,15 @@
+{{> header }}
+<div class="container">
+  <h1>{{ site.name }}</h1>
+</div>
+<div class="container">
+  <ul class="recent">
+  {{#each dev }}
+    <li>
+      <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
+      <div class="date">{{ date }}</div>
+    </li>
+  {{/each}}
+  </ul>
+</div>
+{{> footer }}

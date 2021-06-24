@@ -1,0 +1,26 @@
+{{> header }}
+<div class="container">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Titolo</th>
+        <th scope="col">Autore</th>
+        <th scope="col">Data Inizio</th>
+        <th scope="col">Data Fine</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each read }}
+      <tr>
+        <th scope="row" class="number">{{number}}</th>
+        <td class="titolo">{{titolo}}</td>
+        <td class="autore">{{autore}}</td>
+        <td class="data">{{datainizio}}</td>
+        <td class="data">{{datafine}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+{{> footer }}
