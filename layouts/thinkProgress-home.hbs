@@ -1,15 +1,25 @@
-{{> header }}
-<div class="container">
-  <h1>{{ site.name }}</h1>
-</div>
-<div class="container"> 
-  <ul class="recent">
-  {{#each think }}
-    <li>
-      <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
-      <div class="date">{{ date }}</div>
-    </li>
-  {{/each}}
-  </ul>
-</div>
-{{> footer }}
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> header }}
+  </head>
+  <body>
+    {{> navbar-progress }}
+    <div class="content">
+      <div class="container">
+        <h1>qui bisogna scrivere</h1>
+      </div>
+      <div class="container">
+        <ul class="recent">
+        {{#each think }}
+          <li>
+            <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
+            <div class="date">{{ date }}</div>
+          </li>
+        {{/each}}
+        </ul>
+      </div>
+    </div>
+    {{> footer }}
+  </body>  
+</html>

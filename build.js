@@ -7,6 +7,9 @@ var permalinks = require('metalsmith-permalinks');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 var assets = require('metalsmith-assets');
+var youtube = require('metalsmith-youtube');
+var dateFormatter = require('metalsmith-date-formatter');
+var drafts = require('metalsmith-drafts');
  
 metalsmith
 
@@ -32,14 +35,48 @@ metalsmith(__dirname)
     },
   read: {
     pattern: 'readProgress/**/*.md',
-    sortBy: 'date',
+    sortBy: 'datafine',
     reverse: true
-    }
+    },
+  ultimidev: {
+    pattern: 'devProgress/**/*.md',
+    sortBy: 'date',
+    reverse: true,
+    limit: 5,
+  },
+  ultimithink: {
+    pattern: 'thinkProgress/**/*.md',
+    sortBy: 'date',
+    reverse: true,
+    limit: 5,
+  }
   }))
 .use(assets({
   source: './assets', // relative to the working directory
   destination: './assets' // relative to the build directory
 }))
+.use(youtube({
+  controls: true,
+  showTitle: true,
+  privacy : true 
+}))
+.use(dateFormatter({
+  dates: [
+      {
+          key: 'date',
+          format: 'YYYY MM DD'
+      },
+      {
+          key: 'datainizio',
+          format: 'YYYY MM DD'
+      },
+      {
+        key: 'datafine',
+        format: 'YYYY MM DD'
+      }
+  ]
+}))
+.use(drafts())
 .use(markdown())
 .use(permalinks({
   relative: false,

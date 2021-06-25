@@ -1,26 +1,37 @@
-{{> header }}
-<div class="container">
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Titolo</th>
-        <th scope="col">Autore</th>
-        <th scope="col">Data Inizio</th>
-        <th scope="col">Data Fine</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{#each read }}
-      <tr>
-        <th scope="row" class="number">{{number}}</th>
-        <td class="titolo">{{titolo}}</td>
-        <td class="autore">{{autore}}</td>
-        <td class="data">{{datainizio}}</td>
-        <td class="data">{{datafine}}</td>
-      </tr>
-      {{/each}}
-    </tbody>
-  </table>
-</div>
-{{> footer }}
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> header }}
+  </head>
+  <body>
+    {{> navbar-progress }}
+    <div class="content">
+      <div class="container">
+        <h1>qui bisogna scrivere e mettere i libri in lettura</h1>
+      </div>
+      <div class="container">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Titolo</th>
+              <th scope="col">Autore</th>
+              <th scope="col">Data Inizio</th>
+              <th scope="col">Data Fine</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each read }}
+            <tr>
+              <td class="titolo">{{titolo}}</td>
+              <td class="autore">{{autore}}</td>
+              <td class="data">{{datainizio}}</td>
+              <td class="data">{{datafine}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {{> footer }}
+  </body>  
+</html>

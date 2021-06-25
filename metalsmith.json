@@ -3,6 +3,7 @@
   "destination": "public",
   "plugins": {
     "metalsmith-markdown": true,
-    "metalsmith-layouts": true
+    "metalsmith-layouts": true,
+    "metalsmith-drafts": true
   }
 }
