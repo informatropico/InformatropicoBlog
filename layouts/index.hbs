@@ -1,10 +1,41 @@
 {{> header }}
 <div class="container">
   <h1>{{ site.name }}</h1>
+  <h2>Read, Think e Dev Progress</h2>
 </div>
 <div class="container">
-  <nav>---<br /><a href="readprogress">#ReadProgress</a></nav> 
-  <nav>---<br /><a href="devprogress">#DevProgress</a></nav>
-  <nav>---<br /><a href="thinkprogress">#ThinkProgress</a></nav>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="./assets/images/read.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">#ReadProgress</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="readprogress" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="./assets/images/think.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">#ThinkProgress</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="thinkprogress" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="./assets/images/dev.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">#DevProgress</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="devprogress" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
 {{> footer }}
