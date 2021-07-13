@@ -49,6 +49,12 @@ metalsmith(__dirname)
     sortBy: 'date',
     reverse: true,
     limit: 5,
+  },
+  sprint: {
+    pattern: 'sprint/**/*.md',
+    sortBy: 'datainizio',
+    reverse: true,
+    limit: 1,
   }
   }))
 .use(assets({
@@ -63,16 +69,16 @@ metalsmith(__dirname)
 .use(dateFormatter({
   dates: [
       {
-          key: 'date',
-          format: 'YYYY MM DD'
+        key: 'date',
+        format: 'YYYY.MM.DD'
       },
       {
-          key: 'datainizio',
-          format: 'YYYY MM DD'
+        key: 'datainizio',
+        format: 'YYYY.MM.DD'
       },
       {
         key: 'datafine',
-        format: 'YYYY MM DD'
+        format: 'YYYY.MM.DD'
       }
   ]
 }))
