@@ -5,9 +5,32 @@
   </head>
   <body>
     {{> navbar-progress }}
-    <div class="content">
+    <div class="container content col-sm-6">
       <div class="container">
-        <h1>qui bisogna scrivere e mettere i libri in lettura</h1>
+        <h1>#ReadProgress</h1>
+        <p>
+          Sono stato un bambino e un adolescente che ha sempre apprezzato la lettura. 
+          Con l'inizio delle superiori però l'attività ha subito una brusca frenata e questo stato è perdurato per molti anni a seguire.
+          Nell'aprile del 2020, complice un lock-down da pandemia ho preso per mano un libro intitolato <i>"I Simpson e la filosofia"</i> ed è stata una nuova primavera.
+        </p>
+        <p>
+          Da quel momento in poi di fatto non ho mai smesso di leggere, qualche alto e pochi bassi, facendo diventare il momento della lettura una routine.
+          L'epifania l'ho trovata nella parole di Martha Nussbaum, in cui afferma che certe verità possono essere comunicate in modo adeguato solo nell'arte.
+          Io sono di natura affascinato e attirato dai saggi, ma trovare un saggio che promuove la narrativa è stato illuminante.
+        </p>
+        <p>
+          In un modo non ancora del tutto chiaro quella lettura ha dato il via ad una serie di pensieri che hanno portato alla nascita di questo progetto e quindi ho deciso di riservare 
+          una pagina dedicata semplicemente all'elenco dei libri.
+          Qui non ci troverete recensioni (forse ne lascio qualcuna sul mio profilo Anobii o su <span><a class="link-secondary" href="../thinkprogress">#ThinkProgress</a></span>) e nemmeno una classifica con i consigliati e non consigliati: non esiste il libro 
+          imprescindibile e nemmeno quello che non andrebbe letto mai. Ogni libro ha il suo tempo e il suo momento, lasciatevi ispirare, smettete, riprendete, cambiate.
+        </p>
+        <p>
+          Il motivo per cui leggo è per sfamare curiosità e tenere a bada la sindrome dell'impostore e prediligo la lettura perchè ti impone del tempo, rende più difficile la distrazione impegnando contemporanemente occhi, orecchie (se leggete a voce alta), mani e cervello.
+          Nel mio flusso (specialmente in quello che si riversa poi in <span><a class="link-secondary" href="../thinkprogress">#ThinkProgress</a></span>) c'è molto spesso un passaggio per un libro, non deve essere per forza l'incipit per un progetto ma è quasi sempre un ingrediente.
+        </p>
+        <p>
+          Vi lascio alla lista, ciao!
+        </p>
       </div>
       <div class="container">
         <table class="table table-hover">
@@ -25,7 +48,7 @@
               <td class="titolo">{{titolo}}</td>
               <td class="autore">{{autore}}</td>
               <td class="data">{{datainizio}}</td>
-              <td class="data">{{datafine}}</td>
+              {{#if datafine}}<td class="data">{{datafine}}</td>{{else}}<td class="data">In corso</td>{{/if}}
             </tr>
             {{/each}}
           </tbody>

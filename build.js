@@ -35,7 +35,7 @@ metalsmith(__dirname)
     },
   read: {
     pattern: 'readProgress/**/*.md',
-    sortBy: 'datafine',
+    sortBy: 'datainizio',
     reverse: true
     },
   ultimidev: {
