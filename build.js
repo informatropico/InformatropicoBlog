@@ -92,14 +92,8 @@ metalsmith(__dirname)
 .use(layouts({
   engine: 'handlebars',
   pattern: ["*/*/*html","*/*html","*html"],
-  partials: {
-    header: './layouts/partials/header',
-    footer: './layouts/partials/footer',
-    article: './layouts/partials/article',
-    navbarIndex: './layouts/partials/navbarIndex',
-    navbarProgress: './layouts/partials/navbarProgress'
-  }
-  }))
+  partials: './layouts/partials'
+}))
 .use(serve({
   port: 8081,
   verbose: true
