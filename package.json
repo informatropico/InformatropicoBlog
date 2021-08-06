@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "build.js",
-  "scripts": {
-    "prestart": "npm install",
-    "start": "node ."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/informatropico/InformatropicoBlog.git"
