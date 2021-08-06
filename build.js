@@ -10,8 +10,6 @@ var assets = require('metalsmith-assets');
 var youtube = require('metalsmith-youtube');
 var dateFormatter = require('metalsmith-date-formatter');
 var drafts = require('metalsmith-drafts');
- 
-metalsmith
 
 metalsmith(__dirname)
 .metadata({
