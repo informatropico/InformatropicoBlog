@@ -93,10 +93,6 @@ metalsmith(__dirname)
   pattern: ["*/*/*html","*/*html","*html"],
   partials: './layouts/partials'
 }))
-.use(serve({
-  port: 8081,
-  verbose: true
-}))
 .build(function (err) {
   if (err) {
     console.log(err);
