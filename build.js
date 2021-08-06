@@ -5,7 +5,6 @@ var collections = require('metalsmith-collections');
 var discoverPartials = require('metalsmith-discover-partials');
 var permalinks = require('metalsmith-permalinks');
 var serve = require('metalsmith-serve');
-var watch = require('metalsmith-watch');
 var assets = require('metalsmith-assets');
 var youtube = require('metalsmith-youtube');
 var dateFormatter = require('metalsmith-date-formatter');
@@ -97,12 +96,6 @@ metalsmith(__dirname)
 .use(serve({
   port: 8081,
   verbose: true
-  }))
-.use(watch({
-  paths: {
-    "${source}/**/*": true,
-    "layout/**/*": "**/*",
-  }
 }))
 .build(function (err) {
   if (err) {
