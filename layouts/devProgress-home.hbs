@@ -8,12 +8,6 @@
     <div class="content container col-sm-6">
       <div class="container">
         <h1 style="padding-bottom: 50px;">#DevProgress</h1>
-        <div class="container">
-          <blockquote class="blockquote text-center">
-            <p class="mb-10">Avanzamento o trasformazione graduale contrassegnati da un sempre maggiore aumento di capacità e potenzialità.</p>
-            <footer class="blockquote-footer">Definizione di <cite title="Source Title">Progresso</cite></footer>
-          </blockquote>
-        </div>
         <p>Ci sono due avvenimenti fondamentali nella mia vita che hanno segnato la mia vicinanza e passione verso la tecnologia.</p>
         <p>Il primo avvenimento risale ad un sabato mattina del 1998 (avevo 7 anni). Mio padre mi portò a visitare il suo posto di lavoro, 
           entrati nell'ufficio costituito da una serie di postazioni con terminale accese il suo, aprì un file di testo, mi fece digitare il mio 
@@ -37,6 +31,10 @@
           sfruttando il framework .NET di Microsoft e il linguaggio C#. 
         </p>
         <p>
+          L'aspirazione è quella di costruire una specie di diario: nessuna soluzione corretta (non ho tale pretesa e nemmeno l'esperienza per realizzarle) 
+          ma il racconto di un percorso, fatto passo passo.
+        </p>
+        <p>
           Se vi può interessare vi aspetto nei link sotto.
         </p>
       </div>
@@ -53,7 +51,7 @@
               {{#if draft}}
               {{else}}
                 <tr>
-                  <td class="titolo"><a class="link-secondary" href="../{{ path }}">{{ title }}</a></td>
+                  <td class="titolo"><a class="link-secondary" href="../{{ path }}">{{title}}: {{subtitle}}</a></td>
                   <td class="data">{{date}}</td>
                 </tr>
               {{/if}}

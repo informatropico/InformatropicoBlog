@@ -46,12 +46,6 @@ metalsmith(__dirname)
     sortBy: 'date',
     reverse: true,
     limit: 5,
-  },
-  sprint: {
-    pattern: 'sprint/**/*.md',
-    sortBy: 'datainizio',
-    reverse: true,
-    limit: 1,
   }
   }))
 .use(assets({

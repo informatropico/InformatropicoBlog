@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{>header }}
+    </head>
+    <body>
+        {{>navbarProgress }}
+        <div class="content container col-sm-6 col-md-6">
+          <div class="row">
+            <div class="col-sm-4 col-md-4">
+              <h1 class="display-3 titolo">{{title}}</h1>
+              {{#if subtitle}}<h2 class="text-muted display-6 sottotitolo">{{subtitle}}</h2>{{/if}}
+              {{#if date}}<div class="lead data">{{date}}</div>{{/if}}
+              {{#if cover}}<img src={{cover}} class="img-fluid img-thumbnail cover" alt={{coverDescription}}>{{/if}}
+              {{#if creditCover}}<div class="text-center creditCover">{{creditCover}}</div>{{/if}}
+              {{#if abstract}}<strong><em><div class="lead abstract">{{abstract}}</div></em></strong>{{/if}}
+            </div>
+            <div class="col-sm-8 col-md-8">
+              <div class="lead">{{{contents}}}</div>
+            </div>
+          </div>
+        </div>
+        {{>footer }}
+    </body>  
+</html>

@@ -10,8 +10,26 @@ footer{
     padding-top: 50px;
     padding-bottom:150px;   /* Height of the footer */
 }
-
 .progressMenu{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.titolo{
+
+}
+.sottotitolo{
+
+}
+.abstract{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cover{
+
+}
+.creditCover{
+
+}
+.data{
+    padding-bottom: 20px;
 }
