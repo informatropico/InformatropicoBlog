@@ -1,9 +1,9 @@
 ---
-title: "STMS 001"
+title: "#DevNotes 001"
 subtitle: "Presentazione"
 abstract: "Come voglio condurre questo esperimento e dove voglio arrivare"
 date: 2021-10-15
-draft: false
+draft: true
 layout: devPost.hbs
 ---
 
@@ -23,7 +23,7 @@ Quello che volgio fare è esplorare partendo da poche assunzioni e da obiettivi 
 A questo punto è il caso che vi descriva il progetto che voglio creare e i vincoli che mi sono imposto per trovare un punto di partenza.
 In questa serie vorrei sviluppare un sistema denominato STMS - Scrum Team Management System, ovvero un sistema in grado di gestire tutte le attività e gli artefatti di un team che applica la metodologia Scrum. Ho scelto così perchè mi sembra abbastanza ampio ma non troppo imponenente, con una sufficiente varietà di caratteristiche da potermi permettere di esplorare diversi aseptti tecnolgici ed infine abbastanza morbido da permettermi di dargli forma per soddisfare le esigenze tecniche che potrò incontrare.
 
-Veniamo ora ai paletti che ho fissato: so di essere una persona interessata al mondo backend e architetturale, quindi ho preso la decisione drastica do non occuparmi minimamente del frontend ma di avere come punto di interfaccia con il sistema solo l'insieme delle sue API. Questa scelta non è corretta, anche alla luce delle metodologie che voglio imparare, ma era necessaria per poter iniziare ad occuparmi delle cose che mi interessando di più. Potrei tenerne conto in fase di progettazione e analisi, ma non ci saranno implementazioni.
+Veniamo ora ai paletti che ho fissato: so di essere una persona interessata al mondo backend e architetturale, quindi ho preso la decisione drastica do non occuparmi minimamente del frontend ma di avere come punto di interfaccia con il sistema solo l'insieme delle sue API. Questa scelta non è corretta, anche alla luce delle metodologie che voglio imparare, ma era necessaria per poter iniziare ad occuparmi delle cose che mi interessando di più. Potrei tenerne conto in fase di progettazione e analisi, ma non ci saranno implementazioni[^1].
 L'"ambiente" che ho deciso di utilizzare è quello di casa Microsoft, quindi .NET Core + C#. Non ho intenzione di utilizzare software disponibili solo per Windows ma voglio creare una applicazione in grado di essere sviluppata su qualsiasi macchina, quindi ho escluso Visual Studio in favore di Visual Studio Code.
 
 Questo è quanto voglio dirvi per il momento: come vi dicevo prima so che voglio andare a immergermi in ambiti architetturali e quindi mi aspetto di qui a breve di iniziare a parlare di DDD, Clean Architecture, CQRS, Code di messaggi, Eventi, Servizi ecc. Ma non so come, quando e in che modo. Il punto fondamentale è provare a partire e farsi guidare un po' dal problema e un po' dalla tecnologia, piccoli passi alla volta. Il fioretto che faccio è quello di provare a costruire un branch per ogni cerchietto della mia meta-roadmap in modo che resti traccia di tutto ([STMS](https://github.com/informatropico/STMS "Repository su GitHub")).
@@ -37,3 +37,6 @@ Il punto di partenza sarà quindi una webapi che ci permetterà di fare qualcosa
 Come? Adesso ci provo e poi vi scrivo.
 
 A presto.
+
+## Note
+[^1]: Mi riservo di rimangiarmi questo paletto solo nell'eventualità di esplorare Blazor, cosa che potrebbe succedere.

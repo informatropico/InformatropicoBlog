@@ -1,14 +1,16 @@
 var metalsmith = require('metalsmith');
-var markdown = require('metalsmith-markdown');
+var markdown = require('metalsmith-markdownit');
 var layouts = require('metalsmith-layouts');
 var collections = require('metalsmith-collections');
 var discoverPartials = require('metalsmith-discover-partials');
 var permalinks = require('metalsmith-permalinks');
-var serve = require('metalsmith-serve');
 var assets = require('metalsmith-assets');
 var youtube = require('metalsmith-youtube');
 var dateFormatter = require('metalsmith-date-formatter');
 var drafts = require('metalsmith-drafts');
+
+var md = markdown('default', { html: true, typography: true });
+md.parser.use(require('markdown-it-footnote'));
 
 metalsmith(__dirname)
 .metadata({
@@ -24,17 +26,27 @@ metalsmith(__dirname)
     pattern: 'devProgress/**/*.md',
     sortBy: 'date',
     reverse: true
-    },
+  },
+  devNotes: {
+    pattern: 'devProgress/devNotes/*.md',
+    sortBy: 'date',
+    reverse: true
+  },
+  stms: {
+    pattern: 'devProgress/STMS/*.md',
+    sortBy: 'date',
+    reverse: true
+  },
   think: {
     pattern: 'thinkProgress/**/*.md',
     sortBy: 'date',
     reverse: true
-    },
+  },
   read: {
     pattern: 'readProgress/**/*.md',
     sortBy: 'datainizio',
     reverse: true
-    },
+  },
   ultimidev: {
     pattern: 'devProgress/**/*.md',
     sortBy: 'date',
@@ -74,7 +86,7 @@ metalsmith(__dirname)
   ]
 }))
 .use(drafts())
-.use(markdown())
+.use(md)
 .use(permalinks({
   relative: false,
   pattern: ':title',
