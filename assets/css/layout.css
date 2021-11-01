@@ -27,4 +27,22 @@ img {
 }
 p {
     text-align: justify;
-  }
+}
+.c-blockquote {
+    display:inline-block;
+    margin:1em;
+    overflow:hidden;
+}
+blockquote {
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+}
+.c-blockquote__attribution {
+    display: block;
+    font-style: italic;
+    text-align: right;
+}
+  

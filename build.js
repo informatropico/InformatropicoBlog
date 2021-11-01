@@ -11,6 +11,7 @@ var drafts = require('metalsmith-drafts');
 
 var md = markdown('default', { html: true, typography: true });
 md.parser.use(require('markdown-it-footnote'));
+md.parser.use(require('markdown-it-attribution'), {marker: '---',});
 
 metalsmith(__dirname)
 .metadata({

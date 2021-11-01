@@ -26,7 +26,7 @@ Come vedete ci sono già diverse note pronte per essere sfornate, quindi mi rimb
 A presto!
 
 > Qualunque cosa tu possa fare, qualunque sogno tu possa sognare, comincia. L'audacia reca in sé genialità, magia e forza. Comincia ora.
-> > Johann Wolfgang Goethe
+> --- Johann Wolfgang Goethe
 
 ## Note
 Qui trovate il corso di cui vi parlavo prima (90 giorni gratis dopo la registrazione): [Distributed Systems Design Fundamentals](https://learn.particular.net/courses/distributed-systems-design-fundamentals-online)
