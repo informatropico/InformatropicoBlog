@@ -30,5 +30,6 @@ Il piano allora è il seguente:
 La quantità di possibilità lì fuori è di fatto sterminata e in questo momento la senzaione è quella paralisi da paradosso della scelta, ma fermarsi sarebbe un peccato.
 
 ## Note
-Qui trovate i due percorsi di apprendimento di Microsoft che ho seguito per fare il punto della situazione: [Creare applicazioni .NET con C#](https://docs.microsoft.com/it-it/learn/paths/build-dotnet-applications-csharp/?source=learn)
-[Primi passi con C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/).
+Qui trovate i due percorsi di apprendimento di Microsoft che ho seguito per fare il punto della situazione: 
+- [Creare applicazioni .NET con C#](https://docs.microsoft.com/it-it/learn/paths/build-dotnet-applications-csharp/?source=learn)
+- [Primi passi con C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/).
