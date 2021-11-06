@@ -1,5 +1,5 @@
 ---
-title: "#DevNotes 002"
+title: "DevNotes 002"
 subtitle: "In principio fu API"
 abstract: "Mettere il naso in questo strumento per comunicare"
 date: 2021-11-06

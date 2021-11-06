@@ -1,5 +1,5 @@
 ---
-title: "#DevNotes 001"
+title: "DevNotes 001"
 subtitle: "Presentazione"
 abstract: "Cosa c'è, a cosa serve e perchè lo faccio"
 date: 2021-11-01
