@@ -1,12 +1,9 @@
 ---
 title: "Perchè scrivo"
 subtitle: "Ogni verità è approssimazione di una realtà ignota"
-cover: "../assets/images/think4.jpg"
-coverDescription: ""
-creditCover: ""
 abstract: "Dove giustifico la mia scelta di scrivere nonostante non ne sappia niente"
-date: 2021-11-28
-draft: true
+date: 2021-11-29
+draft: false
 layout: thinkPost.hbs
 ---
 Caro E.,
