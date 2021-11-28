@@ -30,4 +30,6 @@ A presto,
 M.
 
 ## Note
-[^1]: [Fughi fantastici](https://www.netflix.com/it/title/81183477)
+[^1]: [Fughi fantastici](https://www.netflix.com/it/title/81183477).
+
+Potete d'are un'occhiata anche a questo TED: [L'internet della natura: come gli alberi comunicano e interagiscono in una foresta sana](https://www.youtube.com/watch?v=breDQqrkikM).
