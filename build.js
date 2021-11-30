@@ -48,6 +48,26 @@ metalsmith(__dirname)
     sortBy: 'datainizio',
     reverse: true
   },
+  readInCorso: {
+    pattern: 'readProgress/InCorso/*.md',
+    sortBy: 'datainizio',
+    reverse: true
+  },
+  readNarrativa: {
+    pattern: 'readProgress/Narrativa/*.md',
+    sortBy: 'datainizio',
+    reverse: true
+  },
+  readSaggistica: {
+    pattern: 'readProgress/Saggistica/*.md',
+    sortBy: 'datainizio',
+    reverse: true
+  },
+  readPoesia: {
+    pattern: 'readProgress/Poesia/*.md',
+    sortBy: 'datainizio',
+    reverse: true
+  },
   ultimidev: {
     pattern: 'devProgress/**/*.md',
     sortBy: 'date',
