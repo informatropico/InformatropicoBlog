@@ -43,3 +43,6 @@ Sappiamo tutti qual è la fine del percorso, è uguale per tutti. Pensa al tragi
 Anche questo messaggio poteva essere scritto meglio, non c'è dubbio. Anche io che ti scrivo potrei fare meglio quello che ti ho scritto, ma è il motivo principale per cui l'ho scritto. Vivi in un mondo imperfetto, di persone imperfette tra cui anche il tuo papà. Ma la tensione, la ricerca, il tentativo di fare della vita una cosa bella è ciò che devi mettere nella bilancia quando incontri una persona. L'errore è il tentativo di fare una cosa buona non riuscito.
 
 Provaci sempre.
+
+A presto,
+M.
