@@ -249,7 +249,7 @@ Posso solo continuare a saltare dentro il nero.
 **[Incompleta]**  
 Il silenzio è una perdita di tempo  
 è come non fare niente  
-che cosa si sente?
+che cosa si sente?  
 Non sei al mondo per stare fermo  
 devi riempire ogni spazio  
 ogni pausa  
