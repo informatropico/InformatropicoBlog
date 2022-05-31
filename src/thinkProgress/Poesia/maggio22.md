@@ -17,7 +17,7 @@ Non mi permetterò di chiamarle poesie le mie, ma solo semplicemente *componimen
 Maggio è stato il mese della crisi, della crisi come consapevolezza di una trasformazione necessaria. Di una crisi come bisogno di scoperta e di ripartenza.
 Una crisi che profuma di felicità e libertà.
 
-## Cosa ho letto a Aprile?
+## Cosa ho letto a Maggio?
 Questo mese mi sono dedicato a *Lacrime nere* di *Giorgia Corte*. Ora vi lascio al risultato dei miei laboratori[^1].  
 
 ## Maggio 2022  
