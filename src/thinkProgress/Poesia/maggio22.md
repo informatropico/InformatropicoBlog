@@ -154,7 +154,7 @@ sottomesso ad una normalità imposta.
 A cosa serve il libero arbitrio  
 se poi dobbiamo essere gregge  
 se ci sono i cani a indicare la via.  
-I loro morsi lacerano l'anima
+I loro morsi lacerano l'anima  
 il bruciore la piega alla paura.  
 
 ### 20.05.2022
@@ -189,12 +189,12 @@ Nel tunnel non ero da solo.
 [Incompiuto]
 
 ### 29.05.2022
-Sei nelle profondità degli abissi
-e nelle altitudini del cielo
-in un infinito che abbraccia l'Universo
-persino Dio ha dovuto separarti
-ma con te
-ci ha colorato il paradiso.
+Sei nelle profondità degli abissi  
+e nelle altitudini del cielo  
+in un infinito che abbraccia l'Universo  
+persino Dio ha dovuto separarti  
+ma con te  
+ci ha colorato il paradiso.  
 
 ### 30.05.2022
 [Incompiuto]
