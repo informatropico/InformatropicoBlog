@@ -189,7 +189,7 @@ Nel tunnel non ero da solo.
 [Incompiuto]
 
 ### 29.05.2022
-Sei nelle profindità degli abissi
+Sei nelle profondità degli abissi
 e nelle altitudini del cielo
 in un infinito che abbraccia l'Universo
 persino Dio ha dovuto separarti
