@@ -31,7 +31,7 @@ racchiusa
 tutta la vita scorre.  
 
 ### 05.05.2022
-Se della mia vita resta un ricordo  
+Se della mia vita resterà un ricordo  
 vorrei che fosse il racconto del mio respiro.  
 Il soffio lento della notte  
 quello accellerato della corsa  
