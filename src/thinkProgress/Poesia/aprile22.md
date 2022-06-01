@@ -82,7 +82,7 @@ Prenderò in prestito due gocce al mare
 per segnare le tue lacrime.  
 Farò un giro nei boschi  
 per rubare il marrone dei tuoi occhi.  
-Prenderò il volo nel silezio notturno  
+Prenderò il volo nel silenzio notturno  
 per ricalcare il tuo riposo.  
 Mi farò un buco nel dito  
 per colorami il cuore.  
