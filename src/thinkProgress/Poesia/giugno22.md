@@ -2,7 +2,7 @@
 title: "Un anno di poesia 006"
 subtitle: "Giugno"
 cover: "../assets/images/poesia0006.png"
-abstract: "Il mese della crisi"
+abstract: "Il mese dell'energia'"
 date: 2022-06-30
 draft: false
 layout: thinkPost.hbs
