@@ -5,7 +5,7 @@ cover: "../assets/images/lett001.jpg"
 coverDescription: "Costruzioni di legno"
 creditCover: "Foto di Markus Spiske: https://www.pexels.com/it-it/foto/blocchi-di-legno-verdi-e-marroni-105855/"
 abstract: "Qual è il vero mostro?"
-date: 2022-17-28
+date: 2022-07-28
 draft: false
 layout: thinkPost.hbs
 ---
