@@ -1,6 +1,6 @@
 ---
 title: "Un anno di poesia 007"
-subtitle: "Giugno"
+subtitle: "Luglio"
 cover: "../assets/images/poesia0007.png"
 abstract: "Il mese della libertà"
 date: 2022-07-31
@@ -21,7 +21,7 @@ Questo mese ho letto *Poesie* di *Vladimir Majakovskij*. Ora vi lascio al risult
 
 ## Luglio 2022   
 
-### 03.06.2022
+### 03.07.2022
 Se nell’ultimo giorno  
 misurerai la vita  
 sul numero di Amori non vissuti  
@@ -63,7 +63,7 @@ Quanti battiti hai fatto?
 E sarai pronto all’ultimo dono  
 la somma di tutto il tuo Amore.  
 
-### 04.06.2022
+### 04.07.2022
 #### 1
 Il legno brucia  
 la sua anima come fiamma.  
@@ -113,7 +113,7 @@ prende il controllo.
 Forse gli uccelli  
 sono solo anima.  
 
-### 07.06.2022
+### 07.07.2022
 Lanciare tutto nel vento  
 così tanto spazio lì fuori  
 così piccolo qui dentro.  
@@ -125,7 +125,7 @@ rimettersi al centro
 Scoprire che non c’è  
 posto più bello di te  
 
-### 08.06.2022
+### 08.07.2022
 Ci riempiamo di immagini  
 memorizziamo decine di gusci  
 affidiamo al ricordo decine di storie.  
@@ -141,7 +141,7 @@ rimane nell’eterno.
 Ogni vita è una storia  
 di trasformazioni.  
 
-### 18.06.2022
+### 18.07.2022
 #### 1
 Vorrei mettere in pausa il mondo  
 rovesciare la scatola della mia vita  
@@ -199,7 +199,7 @@ per non sentirci persi
 tra l’abisso e il cielo  
 ammesso che ci sia differenza.    
 
-### 20.06.2022
+### 20.07.2022
 Vorrei prenderti tra le mie mani  
 farti perdere la testa  
 portarti in un momento senza tempo  
@@ -213,7 +213,7 @@ Riaccompagnarti poi ad ora
 e lasciare all’infinito  
 il ricordo di quell’istante  
 
-### 25.06.2022
+### 25.07.2022
 Puoi costruire una diga  
 e io la travalicherò  
 Puoi segnare un confine  
@@ -230,7 +230,7 @@ privo di bordi
 libero incoerente pensiero.  
 Mi basta esistere per essere me.  
 
-### 26.06.2022
+### 26.07.2022
 La vita  
 dovrebbe essere una grande spiaggia  
 custode di ricordi  
@@ -245,11 +245,11 @@ scavato dal papà.
 Un’onda, un passo distratto  
 la distruzione del momento  
 sostituita da un inizio sempre nuovo  
-Una spiaggia nuova
+Una spiaggia nuova  
 una vita nuova ogni giorno  
 fatta degli stessi granelli.  
 
-### 28.06.2022
+### 28.07.2022
 #### 1
 Quanti splendidi mostri  
 albergano dentro di noi  
