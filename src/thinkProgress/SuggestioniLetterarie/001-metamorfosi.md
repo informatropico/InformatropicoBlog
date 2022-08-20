@@ -9,6 +9,8 @@ date: 2022-07-28
 draft: false
 layout: thinkPost.hbs
 ---
+Caro E.,
+
 Quanto siamo diversi dentro e quanti strati rassicuranti indossiamo per far sentire a proprio agio gli altri. Siamo tutti pieni di strati e pochi hanno il coraggio di spogliarsi. Appena qualcuno ci prova deve pagare il prezzo dell’esilio e della diversità (che poi dovrebbe chiamarsi originalità) e sono pochi quelli che sopravvivono senza lasciarsi morire, che spesso significa rimettersi addosso quegli strati e magari chiedere anche scusa.
 
 Ma se non ci lasciassimo morire? Se la nostra storia finisse in modo diverso e non permettessimo a nessuno di chiuderci dentro una stanza?
@@ -24,3 +26,6 @@ Gregor aveva iniziato a conoscersi, a cercare un sistema di comunicazione ma non
 In queste pagine io leggo un appello a trasformarsi, a prendere coscienza della nostra vera forma e costruire un mondo in grado di accoglierle. Un mondo in cui l’originalità e la diversità sono un momento di condivisione e non di esilio: parole dette e ridette e sempre seguita da “MA”, da una regola in più, da un’eccezione a cui crediamo di non poterci sottrarre, da una base che deve essere valida per tutti ma continuiamo a tenere troppo in alto rendendo le nostre società una casa con tante stanze e tante porte da chiudere a chiave.
 
 Possiamo pensare che Gregor sia morto o che abbia indossato di nuovo le sue maschere, poco importa e poco cambia: ogni volta che rinunciamo alla metamorfosi un pezzo di noi cede alla comodità, alla sicurezza affidata a qualcosa di esterno da noi e non ci accorgiamo che ci trasformiamo di continuo per restare attaccati a quella sicurezza, strato su strato e non sia mai che, alla fine del viaggio, guardandoci allo specchio non vediamo un mostro vero.
+
+A presto,
+M.
